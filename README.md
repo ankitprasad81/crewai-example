@@ -8,9 +8,9 @@
 5. If you already don't have the <b> poetry </b> installed, follow the instructions to install it in your system <br>
     - For Windows: <code> pip install poetry </code>
     - For Mac: <code> brew install poetry </code><br>
-5. Install all dependencies using Poetry by executing the following command<br>  
-   <code> poetry install --no-root</code> and then run the application with  
-   <code> poetry shell </code> followed by  <code> python main.py </code>
+5. Install all dependencies using Poetry by executing the following command<br>
+   <code>poetry install --no-root</code> and then run the application with  
+   <code>poetry shell</code> followed by  <code>python main.py</code>
 
 # Contributions
 
