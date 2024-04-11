@@ -1,7 +1,7 @@
 # Steps to try the crewai-groq-example
 
 1. Open the VS Code editor and clone the repository from Github <br>
-    - `git clone https://github.com/ankitprasad81/crewai-groq-example.git`
+    - `git clone https://github.com/ankitprasad81/crewai-example.git`
 2. If you already don't have the <b> poetry </b> installed, follow the instructions to install it in your system <br>
     - For Windows: <code>pip install poetry</code>
     - For Mac: <code>brew install poetry</code><br>
@@ -16,7 +16,7 @@
 # Steps to try the crewai-Ollama-mixtral-example
 
 1. Open the VS Code editor and clone the repository from Github <br>
-    - `git clone https://github.com/ankitprasad81/crewai-groq-example.git`
+    - `git clone https://github.com/ankitprasad81/crewai-example.git`
 2. If you already don't have the <b> poetry </b> installed, follow the instructions to install it in your system <br>
     - For Windows: <code>pip install poetry</code>
     - For Mac: <code>brew install poetry</code><br>
