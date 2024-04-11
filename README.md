@@ -4,7 +4,7 @@
     - `git clone https://github.com/ankitprasad81/crewai-groq-example.git`
 2. Navigate to `https://console.groq.com/keys` to grab the <b> GROQ API Key </b>
 3. Rename the <b> .env.example </b> to <b>.env</b>
-4. Update the "GROQ_API_KEY" with the one you created in Groq Cloud in <b> .env </b> file
+4. Update the <b>"GROQ_API_KEY"</b> with the one you created in Groq Cloud in <b> .env </b> file
 5. If you already don't have the <b> poetry </b> installed, follow the instructions to install it in your system <br>
     - For Windows: <code>pip install poetry</code>
     - For Mac: <code>brew install poetry</code><br>
