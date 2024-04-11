@@ -2,21 +2,29 @@ import os
 from crewai import Agent
 from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
+from langchain_community.llms import Ollama
 
 
 class EmailPersonalizationAgents():
     def __init__(self):
-        self.llm = ChatGroq(
-            api_key=os.getenv("GROQ_API_KEY"),
-            model="mixtral-8x7b-32768"
-        )
+         
+        # Load Groq - Mixtral
+        
+        # self.llm = ChatGroq(
+        #     api_key=os.getenv("GROQ_API_KEY"),
+        #     model="mixtral-8x7b-32768"
+        # )
+
+        # Load Open AI model
 
         # self.llm = ChatOpenAI(
         #     api_key=os.getenv("OPENAI_API_KEY"),
         #     model="gpt-4-turbo-preview"
         # )
 
-        # self.llm = Ollama(model="mixtral")
+        # Load Ollama - Mixtral
+
+         self.llm = Ollama(model="mixtral")
 
     def personalize_email_agent(self):
         return Agent(
