@@ -14,7 +14,7 @@ email_template = """
 Hey [Name]!
 
 Just a quick reminder that we have a Skool community where you can 
-join us for weekly coaching calls every Tuesday at 6 PM Eastern time.
+join us for weekly coaching calls every Tuesday at 6 PM APAC time.
 The community is completely free and we're about to hit the 500
 user milestone. We'd love to have you join us!
 
@@ -27,7 +27,7 @@ like and subscribe button to stay updated with the latest content.
 Looking forward to seeing you in the community!
 
 Best regards,
-Brandon Hancock
+Ninja Players
 """
 
 # 1. Create agents
