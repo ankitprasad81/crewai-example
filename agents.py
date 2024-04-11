@@ -12,8 +12,11 @@ class EmailPersonalizationAgents():
         )
 
         # self.llm = ChatOpenAI(
-        #     model="gpt-4-turbo-preview",
+        #     api_key=os.getenv("OPENAI_API_KEY"),
+        #     model="gpt-4-turbo-preview"
         # )
+
+        # self.llm = Ollama(model="mixtral")
 
     def personalize_email_agent(self):
         return Agent(
