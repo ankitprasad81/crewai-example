@@ -2,7 +2,7 @@
 name = "cold-outreach-crewai"
 version = "0.1.0"
 description = "Send personalized cold outreach emails to a list of leads."
-authors = ["bhancock_ai <brandon@brandonhancock.io>", "João Moura <joaomdmoura@mgail.com>"]
+authors = ["trywithninja <trywithninja@gmail.com>", "João Moura <joaomdmoura@mgail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.12"
