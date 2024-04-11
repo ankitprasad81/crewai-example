@@ -23,7 +23,7 @@
 3. Install all dependencies using Poetry by executing the following command<br>
    <code>poetry install --no-root</code> and then create the virtual environment by running <code>poetry shell</code>.
 4. Download `Ollama` and install `mixtral-8x7B` model
-    - Link to download Ollama: <a> href="https://ollama.com/download">Click here</a>
+    - Link to download Ollama: <a href="https://ollama.com/download"> Click here </a>
     - Install the mixtral model, run `ollama run mixtral`
 5. Edit <code>agents.py</code>, un-comment <i>line 19</i> and comment <i>lines 9 to 12</i> to disable Groq and run Ollama-Mixtral
 6. Execute <code>python main.py</code> to start the crew.
