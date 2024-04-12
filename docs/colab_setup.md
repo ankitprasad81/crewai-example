@@ -38,8 +38,7 @@
             await asyncio.gather(
                 run_process(['ollama', 'serve']),
                 run_process(['ngrok', 'http', '--log', 'stderr', '11434', '--host-header', 'localhost:11434'])
-            )
-</code>
+            ) </code>
     - It should produce something like:<br>
 
         `starting ollama serve`<br>
