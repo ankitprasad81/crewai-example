@@ -42,8 +42,9 @@
             ) 
         </code>
 6. It should produce something like:<br>
-        `starting ollama serve`<br>
-        `Couldn't find '/root/.ollama/id_ed25519'. Generating new private key.`<br>
-        `Your new public key is:`<br>
-        `ssh-ed25519 {some key}`<br>
+        <code>starting ollama serve
+        Couldn't find '/root/.ollama/id_ed25519'. Generating new private key.
+        Your new public key is:
+        ssh-ed25519 {some key}
+        </code>
 7. Follow the steps mentioned in `README.md` under <b>[`Steps to try the crewai-Ollama-mistral-example`](../README.md#steps-to-try-the-crewai-ollama-mistral-example) </b>
