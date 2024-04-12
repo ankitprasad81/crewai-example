@@ -30,7 +30,7 @@
 
 # Setup Ollama on Google Colab
 
-1. Follow the steps mentioned in <b><code>./docs/colab_setup.md</code></b>
+1. Follow the steps mentioned in <a href="docs\colab_setup_with_ngrok.md"><b><code>./docs/colab_setup.md</code></b></a>
 
 # Contributions
 
