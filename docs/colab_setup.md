@@ -7,7 +7,7 @@
 5. Execute the following command in the terminal
     - <code>!curl https://ollama.ai/install.sh | sh</code>
     - <code>
-            <!-- !pip install aiohttp pyngrok
+            !pip install aiohttp pyngrok
 
             import os
             import asyncio
@@ -39,7 +39,7 @@
             await asyncio.gather(
                 run_process(['ollama', 'serve']),
                 run_process(['ngrok', 'http', '--log', 'stderr', '11434', '--host-header', 'localhost:11434'])
-            ) -->
+            )
     </code>
     - It should produce something like:<br>
 
