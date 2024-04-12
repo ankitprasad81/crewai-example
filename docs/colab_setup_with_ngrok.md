@@ -47,4 +47,7 @@
         Your new public key is:
         ssh-ed25519 {some key}
         </code>
-7. Follow the steps mentioned in `README.md` under <b>[`Steps to try the crewai-Ollama-mistral-example`](../README.md#steps-to-try-the-crewai-ollama-mistral-example) </b>
+7. Execute the following command based on the operating system
+    - For Mac: <code>export OLLAMA_HOST=https://{longcode}.ngrok-free.app/</code>
+    - For Windows: <code>set OLLAMA_HOST=https://{longcode}.ngrok-free.app/</code>
+8. Follow the steps mentioned in `README.md` under <b>[`Steps to try the crewai-Ollama-mistral-example`](../README.md#steps-to-try-the-crewai-ollama-mistral-example) </b>
