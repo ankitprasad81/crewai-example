@@ -6,7 +6,8 @@
 4. Click on `Code` as mentioned in the screenshot ![Select Code](select_code.png)
 5. Execute the following command in the terminal
     - <code>!curl https://ollama.ai/install.sh | sh</code>
-    - <code>!pip install aiohttp pyngrok
+    - <code>
+            !pip install aiohttp pyngrok
 
             import os
             import asyncio
