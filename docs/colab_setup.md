@@ -6,8 +6,7 @@
 4. Click on `Code` as mentioned in the screenshot ![Select Code](select_code.png)
 5. Execute the following command in the terminal
     - <code>!curl https://ollama.ai/install.sh | sh</code>
-    - <code>
-            !pip install aiohttp pyngrok
+    - <code>!pip install aiohttp pyngrok
 
             import os
             import asyncio
@@ -40,7 +39,7 @@
                 run_process(['ollama', 'serve']),
                 run_process(['ngrok', 'http', '--log', 'stderr', '11434', '--host-header', 'localhost:11434'])
             )
-    </code>
+</code>
     - It should produce something like:<br>
 
         `starting ollama serve`<br>
