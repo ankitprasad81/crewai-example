@@ -8,7 +8,7 @@ from langchain_community.llms import Ollama
 class EmailPersonalizationAgents():
     def __init__(self):
          
-        # Load Groq - Mixtral
+        # Load Groq - Mistral
         
         # self.llm = ChatGroq(
         #     api_key=os.getenv("GROQ_API_KEY"),
@@ -24,7 +24,7 @@ class EmailPersonalizationAgents():
 
         # Load Ollama - Mixtral
 
-         self.llm = Ollama(model="mixtral")
+         self.llm = Ollama(model="mistral")
 
     def personalize_email_agent(self):
         return Agent(
