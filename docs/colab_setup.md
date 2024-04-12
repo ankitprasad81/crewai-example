@@ -38,12 +38,11 @@
             await asyncio.gather(
                 run_process(['ollama', 'serve']),
                 run_process(['ngrok', 'http', '--log', 'stderr', '11434', '--host-header', 'localhost:11434'])
-            ) </code>
-    - It should produce something like:<br>
-
+            ) 
+    </code>
+6. It should produce something like:<br>
         `starting ollama serve`<br>
         `Couldn't find '/root/.ollama/id_ed25519'. Generating new private key.`<br>
         `Your new public key is:`<br>
-
         `ssh-ed25519 {some key}`<br>
-6. Follow the steps mentioned in `README.md` under <b>`Steps to try the crewai-Ollama-mistral-example`</b>
+7. Follow the steps mentioned in `README.md` under <b>`Steps to try the crewai-Ollama-mistral-example`</b>
